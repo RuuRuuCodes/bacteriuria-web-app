@@ -12,7 +12,7 @@ from PIL import Image
 
 
 # Load classifier
-filename = r"sb_classifier.sav"
+filename = "sb_classifier.sav"
 loaded_model = pickle.load(open(filename, 'rb'))
 
 
