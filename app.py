@@ -12,7 +12,7 @@ from PIL import Image
 
 
 # Load classifier
-filename = r"C:\Users\USER\Desktop\#PROJECT\Implementation\sb_classifier.sav"
+filename = r"sb_classifier.sav"
 loaded_model = pickle.load(open(filename, 'rb'))
 
 
@@ -58,7 +58,7 @@ def main():
         st.markdown('This will predict the presence or absence of significant bacteriuria \
                     in paediatric sickle cell patients.')
         
-        image = Image.open("C:\\Users\\USER\\Desktop\\#PROJECT\\Implementation\\diagnosis.jpg")
+        image = Image.open("diagnosis.jpg")
         st.image(image)
         st.markdown('Select _Classification_ on the sidebar')
         
