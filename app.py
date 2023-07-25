@@ -8,6 +8,7 @@ To deploy classification model
 import numpy as np
 import pickle
 import streamlit as st
+import sklearn
 from PIL import Image
 
 
